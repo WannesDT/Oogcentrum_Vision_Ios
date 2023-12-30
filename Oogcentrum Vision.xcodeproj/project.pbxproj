@@ -11,6 +11,26 @@
 		C0CD04482B4020B800241FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04472B4020B800241FED /* ContentView.swift */; };
 		C0CD044A2B4020B900241FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CD04492B4020B900241FED /* Assets.xcassets */; };
 		C0CD044D2B4020B900241FED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CD044C2B4020B900241FED /* Preview Assets.xcassets */; };
+		C0CD04572B4023E300241FED /* TodoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04562B4023E300241FED /* TodoPage.swift */; };
+		C0CD04592B40240100241FED /* CalendarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04582B40240100241FED /* CalendarPage.swift */; };
+		C0CD045D2B40278900241FED /* DottedBottomLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD045B2B40278900241FED /* DottedBottomLine.swift */; };
+		C0CD045E2B40278900241FED /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD045C2B40278900241FED /* Title.swift */; };
+		C0CD04672B4030D500241FED /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = C0CD04662B4030D500241FED /* Auth0 */; };
+		C0CD046B2B40328300241FED /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0CD046A2B40328300241FED /* Auth0.plist */; };
+		C0CD046D2B40388F00241FED /* Auth0ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD046C2B40388F00241FED /* Auth0ID.swift */; };
+		C0CD04712B403B8100241FED /* ApiAppointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04702B403B8100241FED /* ApiAppointments.swift */; };
+		C0CD04732B403C1600241FED /* ApiAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04722B403C1600241FED /* ApiAppointment.swift */; };
+		C0CD04762B403FCF00241FED /* ApiStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04752B403FCF00241FED /* ApiStaff.swift */; };
+		C0CD04792B40407D00241FED /* ApiJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04782B40407D00241FED /* ApiJob.swift */; };
+		C0CD047C2B40414300241FED /* ApiPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD047B2B40414300241FED /* ApiPatient.swift */; };
+		C0CD047F2B40423500241FED /* AppointmentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD047E2B40423500241FED /* AppointmentsRepository.swift */; };
+		C0CD04812B40424800241FED /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04802B40424800241FED /* Appointment.swift */; };
+		C0CD04832B40450000241FED /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04822B40450000241FED /* Patient.swift */; };
+		C0CD04852B40460300241FED /* Staff.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04842B40460300241FED /* Staff.swift */; };
+		C0CD048A2B40558400241FED /* TodoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04892B40558400241FED /* TodoRepository.swift */; };
+		C0CD048D2B4055BC00241FED /* ApiTodos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD048C2B4055BC00241FED /* ApiTodos.swift */; };
+		C0CD048F2B40567900241FED /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD048E2B40567900241FED /* ApiTodo.swift */; };
+		C0CD04912B40572E00241FED /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04902B40572E00241FED /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +39,25 @@
 		C0CD04472B4020B800241FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0CD04492B4020B900241FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CD044C2B4020B900241FED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0CD04562B4023E300241FED /* TodoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoPage.swift; sourceTree = "<group>"; };
+		C0CD04582B40240100241FED /* CalendarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPage.swift; sourceTree = "<group>"; };
+		C0CD045B2B40278900241FED /* DottedBottomLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedBottomLine.swift; sourceTree = "<group>"; };
+		C0CD045C2B40278900241FED /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		C0CD046A2B40328300241FED /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		C0CD046C2B40388F00241FED /* Auth0ID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth0ID.swift; sourceTree = "<group>"; };
+		C0CD04702B403B8100241FED /* ApiAppointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAppointments.swift; sourceTree = "<group>"; };
+		C0CD04722B403C1600241FED /* ApiAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAppointment.swift; sourceTree = "<group>"; };
+		C0CD04752B403FCF00241FED /* ApiStaff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiStaff.swift; sourceTree = "<group>"; };
+		C0CD04782B40407D00241FED /* ApiJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiJob.swift; sourceTree = "<group>"; };
+		C0CD047B2B40414300241FED /* ApiPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPatient.swift; sourceTree = "<group>"; };
+		C0CD047E2B40423500241FED /* AppointmentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsRepository.swift; sourceTree = "<group>"; };
+		C0CD04802B40424800241FED /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		C0CD04822B40450000241FED /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		C0CD04842B40460300241FED /* Staff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Staff.swift; sourceTree = "<group>"; };
+		C0CD04892B40558400241FED /* TodoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRepository.swift; sourceTree = "<group>"; };
+		C0CD048C2B4055BC00241FED /* ApiTodos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTodos.swift; sourceTree = "<group>"; };
+		C0CD048E2B40567900241FED /* ApiTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTodo.swift; sourceTree = "<group>"; };
+		C0CD04902B40572E00241FED /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CD04672B4030D500241FED /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +91,17 @@
 		C0CD04442B4020B800241FED /* Oogcentrum Vision */ = {
 			isa = PBXGroup;
 			children = (
+				C0CD047D2B4041CF00241FED /* repository */,
+				C0CD046E2B403B6200241FED /* network */,
+				C0CD04622B402B6A00241FED /* Models */,
+				C0CD04612B402ADA00241FED /* ViewModels */,
+				C0CD045A2B40274C00241FED /* Components */,
+				C0CD04532B4023B900241FED /* Views */,
 				C0CD04452B4020B800241FED /* Oogcentrum_VisionApp.swift */,
 				C0CD04472B4020B800241FED /* ContentView.swift */,
 				C0CD04492B4020B900241FED /* Assets.xcassets */,
 				C0CD044B2B4020B900241FED /* Preview Content */,
+				C0CD046A2B40328300241FED /* Auth0.plist */,
 			);
 			path = "Oogcentrum Vision";
 			sourceTree = "<group>";
@@ -65,6 +112,114 @@
 				C0CD044C2B4020B900241FED /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0CD04532B4023B900241FED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD04882B40552000241FED /* Calendar */,
+				C0CD04562B4023E300241FED /* TodoPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0CD045A2B40274C00241FED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD045B2B40278900241FED /* DottedBottomLine.swift */,
+				C0CD045C2B40278900241FED /* Title.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C0CD04612B402ADA00241FED /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C0CD04622B402B6A00241FED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD046C2B40388F00241FED /* Auth0ID.swift */,
+				C0CD04802B40424800241FED /* Appointment.swift */,
+				C0CD04822B40450000241FED /* Patient.swift */,
+				C0CD04842B40460300241FED /* Staff.swift */,
+				C0CD04902B40572E00241FED /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0CD046E2B403B6200241FED /* network */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD048B2B4055AF00241FED /* todo */,
+				C0CD047A2B40412D00241FED /* patient */,
+				C0CD04772B40406900241FED /* job */,
+				C0CD04742B403FAC00241FED /* staff */,
+				C0CD046F2B403B6D00241FED /* appointment */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		C0CD046F2B403B6D00241FED /* appointment */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD04702B403B8100241FED /* ApiAppointments.swift */,
+				C0CD04722B403C1600241FED /* ApiAppointment.swift */,
+			);
+			path = appointment;
+			sourceTree = "<group>";
+		};
+		C0CD04742B403FAC00241FED /* staff */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD04752B403FCF00241FED /* ApiStaff.swift */,
+			);
+			path = staff;
+			sourceTree = "<group>";
+		};
+		C0CD04772B40406900241FED /* job */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD04782B40407D00241FED /* ApiJob.swift */,
+			);
+			path = job;
+			sourceTree = "<group>";
+		};
+		C0CD047A2B40412D00241FED /* patient */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD047B2B40414300241FED /* ApiPatient.swift */,
+			);
+			path = patient;
+			sourceTree = "<group>";
+		};
+		C0CD047D2B4041CF00241FED /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD047E2B40423500241FED /* AppointmentsRepository.swift */,
+				C0CD04892B40558400241FED /* TodoRepository.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		C0CD04882B40552000241FED /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD04582B40240100241FED /* CalendarPage.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		C0CD048B2B4055AF00241FED /* todo */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD048C2B4055BC00241FED /* ApiTodos.swift */,
+				C0CD048E2B40567900241FED /* ApiTodo.swift */,
+			);
+			path = todo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +238,9 @@
 			dependencies = (
 			);
 			name = "Oogcentrum Vision";
+			packageProductDependencies = (
+				C0CD04662B4030D500241FED /* Auth0 */,
+			);
 			productName = "Oogcentrum Vision";
 			productReference = C0CD04422B4020B800241FED /* Oogcentrum Vision.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +269,9 @@
 				Base,
 			);
 			mainGroup = C0CD04392B4020B800241FED;
+			packageReferences = (
+				C0CD04652B4030D500241FED /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = C0CD04432B4020B800241FED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0CD044D2B4020B900241FED /* Preview Assets.xcassets in Resources */,
+				C0CD046B2B40328300241FED /* Auth0.plist in Resources */,
 				C0CD044A2B4020B900241FED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +299,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0CD04592B40240100241FED /* CalendarPage.swift in Sources */,
+				C0CD04572B4023E300241FED /* TodoPage.swift in Sources */,
+				C0CD045D2B40278900241FED /* DottedBottomLine.swift in Sources */,
+				C0CD046D2B40388F00241FED /* Auth0ID.swift in Sources */,
+				C0CD04792B40407D00241FED /* ApiJob.swift in Sources */,
+				C0CD04812B40424800241FED /* Appointment.swift in Sources */,
+				C0CD04712B403B8100241FED /* ApiAppointments.swift in Sources */,
+				C0CD047C2B40414300241FED /* ApiPatient.swift in Sources */,
+				C0CD04762B403FCF00241FED /* ApiStaff.swift in Sources */,
+				C0CD04732B403C1600241FED /* ApiAppointment.swift in Sources */,
+				C0CD04852B40460300241FED /* Staff.swift in Sources */,
+				C0CD047F2B40423500241FED /* AppointmentsRepository.swift in Sources */,
 				C0CD04482B4020B800241FED /* ContentView.swift in Sources */,
+				C0CD045E2B40278900241FED /* Title.swift in Sources */,
+				C0CD048F2B40567900241FED /* ApiTodo.swift in Sources */,
+				C0CD048A2B40558400241FED /* TodoRepository.swift in Sources */,
 				C0CD04462B4020B800241FED /* Oogcentrum_VisionApp.swift in Sources */,
+				C0CD048D2B4055BC00241FED /* ApiTodos.swift in Sources */,
+				C0CD04832B40450000241FED /* Patient.swift in Sources */,
+				C0CD04912B40572E00241FED /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +524,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0CD04652B4030D500241FED /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0CD04662B4030D500241FED /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0CD04652B4030D500241FED /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C0CD043A2B4020B800241FED /* Project object */;
 }
