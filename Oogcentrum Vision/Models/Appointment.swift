@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Appointment{
+struct Appointment: Identifiable{
     let id: Int
     let title: String
     let description: String

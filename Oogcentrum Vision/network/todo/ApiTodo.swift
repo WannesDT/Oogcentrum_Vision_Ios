@@ -12,13 +12,13 @@ struct ApiTodo: Codable{
     let name: String
     let createdBy: ApiStaff
     let targetPerson: ApiStaff
-    let deadline: Date
+    let deadline: String
     let description: String
     let completed: Bool
 }
 extension ApiTodo{
     func asDomainTodo() -> Todo {
-        return Todo(id: id, name: name, description: description, createdBy: createdBy.asDomainStaff(), targetPerson: targetPerson.asDomainStaff(), deadline: deadline, completed: completed)
+        return Todo(id: id, name: name, createdBy: createdBy.asDomainStaff(), targetPerson: targetPerson.asDomainStaff(), deadline: deadline.toDate(dateFormat: "yyyy-MM-dd'T'HH:mm:ss")!, description: description, completed: completed)
     }
     
 }

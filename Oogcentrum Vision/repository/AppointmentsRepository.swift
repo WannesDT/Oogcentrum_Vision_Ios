@@ -23,7 +23,6 @@ struct AppointmentsRepository {
         
         let apiAppointments = try JSONDecoder().decode(ApiAppointments.self, from: data)
         
-        print(apiAppointments.asDomainAppointments())
         return apiAppointments.asDomainAppointments()
     }
 }

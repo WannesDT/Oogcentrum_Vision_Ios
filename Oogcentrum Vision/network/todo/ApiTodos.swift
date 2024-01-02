@@ -11,3 +11,10 @@ struct ApiTodos: Codable{
     let todos: [ApiTodo]
     let totalAmount: Int
 }
+
+extension ApiTodos{
+    func asDomainTodos() -> [Todo] {
+        return todos.map { $0.asDomainTodo() }
+    }
+    
+}

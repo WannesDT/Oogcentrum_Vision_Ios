@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Todo {
+struct Todo: Identifiable{
     let id: Int
     let name: String
     let createdBy: Staff
     let targetPerson: Staff
     let deadline: Date
     let description: String
-    let completed: Bool
+    var completed: Bool
 }

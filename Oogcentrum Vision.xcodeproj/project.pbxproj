@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C07EE9242B44110A000373BA /* AppointmentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9232B44110A000373BA /* AppointmentList.swift */; };
+		C07EE9262B441116000373BA /* AppointmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9252B441116000373BA /* AppointmentItem.swift */; };
+		C07EE9282B441177000373BA /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9272B441177000373BA /* CalendarVM.swift */; };
+		C07EE92E2B442243000373BA /* AppointmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE92D2B442243000373BA /* AppointmentDetailView.swift */; };
+		C07EE9302B442978000373BA /* TodoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE92F2B442978000373BA /* TodoVM.swift */; };
+		C07EE9332B442CC9000373BA /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9322B442CC9000373BA /* TodoList.swift */; };
+		C07EE9352B442D3F000373BA /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9342B442D3F000373BA /* TodoDetailView.swift */; };
+		C07EE9372B442D4B000373BA /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9362B442D4B000373BA /* TodoItem.swift */; };
+		C07EE93A2B44346C000373BA /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07EE9392B44346C000373BA /* DetailItem.swift */; };
 		C0CD04462B4020B800241FED /* Oogcentrum_VisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04452B4020B800241FED /* Oogcentrum_VisionApp.swift */; };
 		C0CD04482B4020B800241FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD04472B4020B800241FED /* ContentView.swift */; };
 		C0CD044A2B4020B900241FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CD04492B4020B900241FED /* Assets.xcassets */; };
@@ -34,6 +43,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C07EE9232B44110A000373BA /* AppointmentList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentList.swift; sourceTree = "<group>"; };
+		C07EE9252B441116000373BA /* AppointmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentItem.swift; sourceTree = "<group>"; };
+		C07EE9272B441177000373BA /* CalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVM.swift; sourceTree = "<group>"; };
+		C07EE92D2B442243000373BA /* AppointmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailView.swift; sourceTree = "<group>"; };
+		C07EE92F2B442978000373BA /* TodoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoVM.swift; sourceTree = "<group>"; };
+		C07EE9322B442CC9000373BA /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		C07EE9342B442D3F000373BA /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
+		C07EE9362B442D4B000373BA /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		C07EE9392B44346C000373BA /* DetailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
 		C0CD04422B4020B800241FED /* Oogcentrum Vision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oogcentrum Vision.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CD04452B4020B800241FED /* Oogcentrum_VisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oogcentrum_VisionApp.swift; sourceTree = "<group>"; };
 		C0CD04472B4020B800241FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +90,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C07EE9312B442A23000373BA /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				C0CD04562B4023E300241FED /* TodoPage.swift */,
+				C07EE9322B442CC9000373BA /* TodoList.swift */,
+				C07EE9342B442D3F000373BA /* TodoDetailView.swift */,
+				C07EE9362B442D4B000373BA /* TodoItem.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		C07EE9382B44345E000373BA /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				C07EE9392B44346C000373BA /* DetailItem.swift */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
 		C0CD04392B4020B800241FED = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +154,9 @@
 		C0CD04532B4023B900241FED /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C07EE9382B44345E000373BA /* shared */,
+				C07EE9312B442A23000373BA /* Todo */,
 				C0CD04882B40552000241FED /* Calendar */,
-				C0CD04562B4023E300241FED /* TodoPage.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,6 +173,8 @@
 		C0CD04612B402ADA00241FED /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C07EE9272B441177000373BA /* CalendarVM.swift */,
+				C07EE92F2B442978000373BA /* TodoVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -209,6 +249,9 @@
 			isa = PBXGroup;
 			children = (
 				C0CD04582B40240100241FED /* CalendarPage.swift */,
+				C07EE9232B44110A000373BA /* AppointmentList.swift */,
+				C07EE9252B441116000373BA /* AppointmentItem.swift */,
+				C07EE92D2B442243000373BA /* AppointmentDetailView.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -299,18 +342,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07EE9302B442978000373BA /* TodoVM.swift in Sources */,
+				C07EE9352B442D3F000373BA /* TodoDetailView.swift in Sources */,
 				C0CD04592B40240100241FED /* CalendarPage.swift in Sources */,
 				C0CD04572B4023E300241FED /* TodoPage.swift in Sources */,
 				C0CD045D2B40278900241FED /* DottedBottomLine.swift in Sources */,
+				C07EE93A2B44346C000373BA /* DetailItem.swift in Sources */,
+				C07EE9242B44110A000373BA /* AppointmentList.swift in Sources */,
 				C0CD046D2B40388F00241FED /* Auth0ID.swift in Sources */,
 				C0CD04792B40407D00241FED /* ApiJob.swift in Sources */,
 				C0CD04812B40424800241FED /* Appointment.swift in Sources */,
 				C0CD04712B403B8100241FED /* ApiAppointments.swift in Sources */,
 				C0CD047C2B40414300241FED /* ApiPatient.swift in Sources */,
 				C0CD04762B403FCF00241FED /* ApiStaff.swift in Sources */,
+				C07EE9282B441177000373BA /* CalendarVM.swift in Sources */,
+				C07EE92E2B442243000373BA /* AppointmentDetailView.swift in Sources */,
+				C07EE9372B442D4B000373BA /* TodoItem.swift in Sources */,
 				C0CD04732B403C1600241FED /* ApiAppointment.swift in Sources */,
 				C0CD04852B40460300241FED /* Staff.swift in Sources */,
+				C07EE9332B442CC9000373BA /* TodoList.swift in Sources */,
 				C0CD047F2B40423500241FED /* AppointmentsRepository.swift in Sources */,
+				C07EE9262B441116000373BA /* AppointmentItem.swift in Sources */,
 				C0CD04482B4020B800241FED /* ContentView.swift in Sources */,
 				C0CD045E2B40278900241FED /* Title.swift in Sources */,
 				C0CD048F2B40567900241FED /* ApiTodo.swift in Sources */,
